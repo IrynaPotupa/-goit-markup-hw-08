@@ -1,21 +1,21 @@
-.team {
-  background-color: var(--section-color);
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  padding: 94px 0;
-  margin: 0 auto;
+// .team {
+//   background-color: var(--section-color);
+//   font-size: 14px;
+//   line-height: 1.7;
+//   letter-spacing: 0.03em;
+//   padding: 94px 0;
+//   margin: 0 auto;
 
-  &__list {
-    @include flex-center();
-    padding: 0;
-  }
-  &__title {
-    color: var(--main-title-color);
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-}
+//   &__list {
+//     @include flex-center();
+//     padding: 0;
+//   }
+//   &__title {
+//     color: var(--main-title-color);
+//     font-size: 36px;
+//     line-height: 1.16;
+//     letter-spacing: 0.03em;
+//     margin-bottom: 50px;
+//     text-align: center;
+//   }
+// }
