@@ -7,10 +7,11 @@ footer {
   padding: 60px 0;
 
   &__field {
-    display: flex;
-    gap: 70px;
-    align-items: baseline;
+    // display: flex;
+    // gap: 70px;
+    // align-items: baseline;
   }
+
   &__title {
     font-weight: 700;
     font-size: 14px;
@@ -31,8 +32,7 @@ footer {
     margin-bottom: 20px;
   }
   &__net-list {
-    display: flex;
-
+    // display: flex;
 
     @media screen and (min-width: 1200px) {
       justify-content: flex-start;
