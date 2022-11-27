@@ -23,24 +23,21 @@
     @media screen and (min-width: 768px) {
       margin-right: 88px;
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
       margin-right: 93px;
     }
   }
   &__menu {
-    @media screen and (max-width: 767px) {
-      display: none;
-    }
-    @media screen and (min-width: 768px) {
-      display: flex;
-      gap: 50px;
-      padding: 0;
-    }
   }
-  &__naw {
-    @media screen and (min-width: 768px) {
-      @include flex-center();
-    }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 50px;
+    padding: 0;
+  }
+}
+&__naw {
+  @media screen and (min-width: 768px) {
+    @include flex-center();
   }
 }
 
