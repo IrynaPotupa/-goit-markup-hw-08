@@ -86,8 +86,10 @@
 }
 .contacts__link--large {
   color: var(--color-brand);
-  font-size: 34px;
-  line-height: 1.76;
-  letter-spacing: 0.02em;
-  padding: 0;
+  @media screen and(min-width: 480px) {
+    font-size: 34px;
+    line-height: 1.76;
+    letter-spacing: 0.02em;
+    padding: 0;
+  }
 }

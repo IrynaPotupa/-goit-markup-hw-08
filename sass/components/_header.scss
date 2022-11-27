@@ -27,9 +27,10 @@
       margin-right: 93px;
     }
   }
-  &__menu {
-    display: none;
-  }
+}
+.header__menu {
+  display: none;
+
   @media screen and (min-width: 768px) {
     display: flex;
     gap: 50px;
