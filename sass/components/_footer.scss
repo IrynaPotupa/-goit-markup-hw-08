@@ -13,8 +13,6 @@
   }
 
   &__parts {
-    @media screen and (max-width: 767px) {
-    }
     @media screen and (min-width: 768px) {
       display: flex;
       justify-content: space-around;
@@ -36,9 +34,14 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-white-color);
-    margin-bottom: 20px;
+    @media screen and (max-width: 767px) {
+      margin-top: 60px;
+    }
     @media screen and (max-width: 1199px) {
       text-align: center;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 20px;
     }
   }
   &__net-title {
@@ -47,18 +50,28 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
     text-transform: uppercase;
     text-align: start;
-    margin-bottom: 20px;
+
+    @media screen and (max-width: 767px) {
+      margin-top: 60px;
+    }
     @media screen and (max-width: 1199px) {
       text-align: center;
+      margin-bottom: 20px;
     }
   }
   &__net-list {
     display: flex;
-    justify-content: flex-start;
     gap: 10px;
     padding: 0;
+    @media screen and (max-width: 767px) {
+      justify-content: center;
+    }
+    @media screen and (min-width: 1200px) {
+      justify-content: flex-start;
+    }
   }
   &__net-link {
     width: 44px;

@@ -1,4 +1,8 @@
 .mailing {
+  @media screen and (max-width: 767px) {
+    @include flex-center();
+    flex-wrap: wrap;
+  }
   @media screen and (min-width: 1200px) {
     display: flex;
     gap: 12px;
@@ -23,6 +27,7 @@
   &:focus {
     border-color: var(--color-brand);
   }
+
   @media screen and (max-width: 1199px) {
     margin: 20px 0;
   }
