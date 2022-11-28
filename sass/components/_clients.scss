@@ -13,30 +13,25 @@
   }
   &__list {
     padding: 0;
-    @media screen and (max-width: 479px) {
-      margin-bottom: 30px;
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-    @media screen and (min-width: 480px) {
-      margin: -15;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
   }
+
   &__item {
-    @media screen and (min-width: 480px) {
-      margin: 15;
-      width: calc((100% - 2 * 30px) / 2);
-    }
+    width: 210px;
+    height: 92px;
+
     @media screen and (min-width: 768px) {
-      width: calc((100% - 3 * 30px) / 3);
+      width: 226px;
     }
     @media screen and (min-width: 1200px) {
-      min-width: 170px;
-      flex-basis: content;
+      width: 170px;
+      flex-wrap: nowrap;
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
 }
