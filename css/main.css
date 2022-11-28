@@ -877,7 +877,6 @@ ul {
 .hero {
   background-color: var(--background-accent);
   max-width: 1600px;
-  height: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -885,9 +884,9 @@ ul {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero-bg-img-phone.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-bg-img-phone.jpg);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .hero {
-    height: 600px;
+    padding: 200px 0;
   }
 }
 .hero__title {
@@ -1075,7 +1074,7 @@ ul {
 }
 
 .mobile-menu__item:last-child .mobile-menu__net {
-  padding-right: 0;
+  padding-right: 5px;
   border: none;
 }
 
@@ -1107,23 +1106,27 @@ ul {
   fill: var(--color-brand);
 }
 
-.mobile-menu__contacts {
+.mobile-menu__cnt {
   display: block;
+  padding: 0;
+  margin-bottom: 64px;
+}
+
+.mobile-menu__contacts {
   color: var(--color-primary);
   font-weight: 500;
   font-size: 24px;
   line-height: 1.66;
   letter-spacing: 0.02em;
-  padding: 0;
-  margin-bottom: 64px;
 }
 
-.contacts__link--large {
+.mobile-menu__contacts--large {
   color: var(--color-brand);
   font-size: 34px;
   line-height: 1.18;
-  letter-spacing: 0.02em;
-  padding: 0;
+}
+
+.mobile-menu__cnt-item {
   margin-bottom: 32px;
 }
 
