@@ -8,7 +8,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    max-width: 480px;
     max-height: 796px;
     background-color: var(--main-white-color);
     padding: 48px 40px;
@@ -16,7 +15,7 @@
 
   &__list {
     padding: 0;
-    margin-bottom: 300px;
+    margin-bottom: 306px;
   }
   &__naw-item {
     display: block;
@@ -37,8 +36,8 @@
   }
 }
 
-.mobile-menu__list-net {
-  @include flex-center();
+.mobile-menu__social {
+  @include flex-center(flex, center, flex-start);
   padding: 0;
 }
 .mobile-menu__net {
@@ -47,13 +46,13 @@
   line-height: 1.22;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding: 0 5px;
+  padding: 0 10px;
   color: var(--color-brand);
   transition: color 250ms var(--color-brand);
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 .mobile-menu__item:last-child .mobile-menu__net {
-  padding-right: 5px;
+  padding-right: 0;
   border: none;
 }
 
